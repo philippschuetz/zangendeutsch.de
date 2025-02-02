@@ -1775,8 +1775,8 @@ export const dictionary = [
         comment: "Computerspiel"
     },
     {
-        original: "Donald Trumpf",
-        translations: ["Donald Trump"],
+        original: "Donald Trump",
+        translations: ["Donald Trumpf"],
         comment: ""
     },
     {
