@@ -2193,5 +2193,10 @@ export const dictionary = [
         original: "Thigh Highs",
         translations: ["Schenkelhochs"],
         comment: ""
+    },
+    {
+        original: "Onion rings",
+        translations: ["Zwiebel ruft an", "Zwiebel klingelt"],
+        comment: ""
     }
 ]
