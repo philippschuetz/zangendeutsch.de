@@ -2196,7 +2196,7 @@ export const dictionary = [
     },
     {
         original: "Onion rings",
-        translations: ["Zwiebel ruft an"],
+        translations: ["Zwiebel ruft an", "Zwiebel klingelt"],
         comment: ""
     }
 ]
