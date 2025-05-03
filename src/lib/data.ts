@@ -36,7 +36,7 @@ export const dictionary = [
     },
     {
         original: "Cringe",
-        translations: ["Kringel"],
+        translations: ["Kringel", "kraunzig"],
         comment: ""
     },
     {
@@ -131,7 +131,7 @@ export const dictionary = [
     },
     {
         original: "Bitcoin",
-        translations: ["Stückchenmünze"],
+        translations: ["Stückchenmünze", "Wahnmünze"],
         comment: ""
     },
     {
@@ -486,7 +486,7 @@ export const dictionary = [
     },
     {
         original: "Boomer",
-        translations: ["Explodierer"],
+        translations: ["Explodierer", "Altverstarrter"],
         comment: "Gemeint ist die Generation"
     },
     {
@@ -546,7 +546,7 @@ export const dictionary = [
     },
     {
         original: "Homeoffice",
-        translations: ["Innenministerium", "Zuhause Amtszimmer"],
+        translations: ["Innenministerium", "Zuhause Amtszimmer", "Heimlohnerjagung"],
         comment: ""
     },
     {
@@ -586,7 +586,7 @@ export const dictionary = [
     },
     {
         original: "Punk",
-        translations: ["Faulendes Holz"],
+        translations: ["Faulendes Holz", "Sittichrüpel"],
         comment: ""
     },
     {
@@ -831,7 +831,7 @@ export const dictionary = [
     },
     {
         original: "Brainstorming",
-        translations: ["Gehirnstürmen"],
+        translations: ["Gehirnstürmen", "Hirnausschüttelung"],
         comment: ""
     },
     {
@@ -976,7 +976,7 @@ export const dictionary = [
     },
     {
         original: "E-Mail",
-        translations: ["E-Brief"],
+        translations: ["E-Brief", "Spratzelpost"],
         comment: ""
     },
     {
@@ -1296,7 +1296,7 @@ export const dictionary = [
     },
     {
         original: "Mountainbike",
-        translations: ["Bergfahrrad"],
+        translations: ["Bergfahrrad", "Buckelzweirad"],
         comment: ""
     },
     {
@@ -1431,12 +1431,12 @@ export const dictionary = [
     },
     {
         original: "Running Gag",
-        translations: ["Rennwitz"],
+        translations: ["Rennwitz", "Kehrwitz"],
         comment: ""
     },
     {
         original: "Selfie",
-        translations: ["Selbstie"],
+        translations: ["Selbstie", "Eitelknips"],
         comment: ""
     },
     {
@@ -1451,7 +1451,7 @@ export const dictionary = [
     },
     {
         original: "Shitstorm",
-        translations: ["Fäkaliensturm"],
+        translations: ["Fäkaliensturm", "Kotgewitter"],
         comment: ""
     },
     {
@@ -1476,7 +1476,7 @@ export const dictionary = [
     },
     {
         original: "Skateboard",
-        translations: ["Rollbrett"],
+        translations: ["Rollbrett", "Fußkutsche"],
         comment: ""
     },
     {
@@ -2197,6 +2197,191 @@ export const dictionary = [
     {
         original: "Onion rings",
         translations: ["Zwiebel ruft an", "Zwiebel klingelt"],
+        comment: ""
+    },
+    {
+        original: "Aftershave",
+        translations: ["Peintinktur"],
+        comment: ""
+    },
+    {
+        original: "Bodybuilder",
+        translations: ["Kraftknecht"],
+        comment: ""
+    },
+    {
+        original: "Bot",
+        translations: ["Truggenosse"],
+        comment: ""
+    },
+    {
+        original: "Chat",
+        translations: ["Flimmertratsch"],
+        comment: ""
+    },
+    {
+        original: "Coffee-to-go",
+        translations: ["Flanierkaffee"],
+        comment: ""
+    },
+    {
+        original: "Controller",
+        translations: ["Spielknüppel"],
+        comment: ""
+    },
+    {
+        original: "Crowdfunding",
+        translations: ["Hordenförderung"],
+        comment: ""
+    },
+    {
+        original: "Dreamteam",
+        translations: ["Sehnsuchtsschar"],
+        comment: ""
+    },
+    {
+        original: "Fitness",
+        translations: ["Leibesvermögen"],
+        comment: ""
+    },
+    {
+        original: "Framing",
+        translations: ["Tatsacheneinkleidung"],
+        comment: ""
+    },
+    {
+        original: "Freak",
+        translations: ["Schrillkauz"],
+        comment: ""
+    },
+    {
+        original: "Gag",
+        translations: ["Schlagwitz"],
+        comment: ""
+    },
+    {
+        original: "Gangbang",
+        translations: ["Gesellschaftsbeischlaf"],
+        comment: ""
+    },
+    {
+        original: "Gendern",
+        translations: ["Geschlechtsgliedern"],
+        comment: ""
+    },
+    {
+        original: "Greenwashing",
+        translations: ["Umweltheuchel"],
+        comment: ""
+    },
+    {
+        original: "Gym",
+        translations: ["Ertüchtigungsanstalt"],
+        comment: ""
+    },
+    {
+        original: "Job",
+        translations: ["Lohnerjagung"],
+        comment: ""
+    },
+    {
+        original: "Joint",
+        translations: ["Rauschkegel"],
+        comment: ""
+    },
+    {
+        original: "Hatespeech",
+        translations: ["Grimmrede"],
+        comment: ""
+    },
+    {
+        original: "Hip-Hop",
+        translations: ["Schnaftmusik"],
+        comment: ""
+    },
+    {
+        original: "Hotspot",
+        translations: ["Rummelfleck"],
+        comment: ""
+    },
+    {
+        original: "Hype",
+        translations: ["Massentaumel"],
+        comment: ""
+    },
+    {
+        original: "Leak",
+        translations: ["Schandleck"],
+        comment: ""
+    },
+    {
+        original: "Manager",
+        translations: ["Fronvorsteher"],
+        comment: ""
+    },
+    {
+        original: "Mansplaining",
+        translations: ["Herrenschulmeisterei"],
+        comment: ""
+    },
+    {
+        original: "Marketing",
+        translations: ["Feilschmeichelei"],
+        comment: ""
+    },
+    {
+        original: "Memory-Stick",
+        translations: ["Lagerstab"],
+        comment: ""
+    },
+    {
+        original: "Meeting",
+        translations: ["Fronsitzung"],
+        comment: ""
+    },
+    {
+        original: "Mic-Drop",
+        translations: ["Protzwurf"],
+        comment: ""
+    },
+    {
+        original: "Notebook",
+        translations: ["Rechenbohle"],
+        comment: ""
+    },
+    {
+        original: "Peeling",
+        translations: ["Schürfbalsam"],
+        comment: ""
+    },
+    {
+        original: "Piercing",
+        translations: ["Pellenpflock"],
+        comment: ""
+    },
+    {
+        original: "Slang",
+        translations: ["Wankelsprech"],
+        comment: ""
+    },
+    {
+        original: "Streaming",
+        translations: ["Jetztschau"],
+        comment: ""
+    },
+    {
+        original: "Trainer",
+        translations: ["Schindmeister"],
+        comment: ""
+    },
+    {
+        original: "woke",
+        translations: ["unrechtgewahr"],
+        comment: ""
+    },
+    {
+        original: "Work-Life-Balance",
+        translations: ["Pflicht-Muße-Wiegung"],
         comment: ""
     }
 ]
