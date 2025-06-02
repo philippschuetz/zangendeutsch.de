@@ -2383,5 +2383,10 @@ export const dictionary = [
         original: "Work-Life-Balance",
         translations: ["Pflicht-Muße-Wiegung"],
         comment: ""
+    },
+    {
+        original: "Lemmy",
+        translations: ["Lassmich"],
+        comment: "Lemmy - Linkaggregator"
     }
 ]
