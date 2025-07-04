@@ -65,7 +65,7 @@
 				{#each wordsDisplayed as word}
 					<tr>
 						<td>{word.original}</td>
-						<td>{word.translations}</td>
+						<td>{word.translations.join(", ")}</td>
 						<td>{word.comment}</td>
 					</tr>
 				{/each}
