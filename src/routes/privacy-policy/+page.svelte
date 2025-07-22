@@ -223,6 +223,10 @@
 			Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein
 			berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website &ndash;
 			hierzu m&uuml;ssen die Server-Log-Files erfasst werden.</p>
+		<h3>Nutzungsdaten</h3>
+		<p>Wir verwenden auf dieser Website Plausible Analytics, um einige anonyme Nutzungsdaten zu
+    	statistischen Zwecken zu erfassen. Dies dient dazu, allgemeine Trends im Website-Traffic
+    	nachzuvollziehen - nicht, um einzelne Besucher zu verfolgen.</p>
 		<h3>Anfrage per E-Mail, Telefon oder Telefax</h3>
 		<p>Wenn Sie uns per E-Mail, Telefon oder Telefax
 			kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage)
