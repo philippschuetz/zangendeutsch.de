@@ -1,4 +1,5 @@
 <svelte:head>
+	<meta name="robots" content="noindex,nofollow" />
 	<title>zangendeutsch.de - Datenschutz</title>
 </svelte:head>
 
