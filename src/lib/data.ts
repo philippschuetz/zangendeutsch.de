@@ -2390,7 +2390,7 @@ export const dictionary = [
         comment: "Lemmy - Linkaggregator"
     },
     {
-        original: "Boilerplate"
+        original: "Boilerplate",
         translations: ["Durchlauferhitzerabdeckung"],
         comment: "Java in einer Nussschale"
     }
