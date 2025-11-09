@@ -2393,5 +2393,10 @@ export const dictionary = [
         original: "Tailor Swift",
         translations: ["Schneider schnell"],
         comment: ""
+    },
+    {
+        original: "Boilerplate",
+        translations: ["Durchlauferhitzerabdeckung"],
+        comment: "Java in einer Nussschale"
     }
 ]
