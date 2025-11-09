@@ -2390,8 +2390,8 @@ export const dictionary = [
         comment: "Lemmy - Linkaggregator"
     },
     {
-        original: "Tailor Swift",
-        translations: ["Schneider schnell"],
+        original: "Taylor Swift",
+        translations: ["Schneider Schnell"],
         comment: ""
     },
     {
