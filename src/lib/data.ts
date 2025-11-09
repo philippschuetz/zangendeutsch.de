@@ -2388,5 +2388,10 @@ export const dictionary = [
         original: "Lemmy",
         translations: ["Lassmich"],
         comment: "Lemmy - Linkaggregator"
+    },
+    {
+        original: "Tailor Swift",
+        translations: ["Schneider schnell"],
+        comment: ""
     }
 ]
