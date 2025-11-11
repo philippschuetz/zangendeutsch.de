@@ -2388,5 +2388,15 @@ export const dictionary = [
         original: "Lemmy",
         translations: ["Lassmich"],
         comment: "Lemmy - Linkaggregator"
+    },
+    {
+        original: "Taylor Swift",
+        translations: ["Schneider Schnell"],
+        comment: ""
+    },
+    {
+        original: "Boilerplate",
+        translations: ["Durchlauferhitzerabdeckung"],
+        comment: "Java in einer Nussschale"
     }
 ]
