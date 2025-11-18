@@ -2401,7 +2401,7 @@ export const dictionary = [
     },
     {
         original: "Database",
-        translations: ["Daten Basis"],
+        translations: ["Datenbasis"],
         comment: ""
     }
 ]
