@@ -2398,5 +2398,10 @@ export const dictionary = [
         original: "Boilerplate",
         translations: ["Durchlauferhitzerabdeckung"],
         comment: "Java in einer Nussschale"
+    },
+    {
+        original: "Database",
+        translations: ["Datenbasis"],
+        comment: ""
     }
 ]
