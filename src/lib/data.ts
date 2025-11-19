@@ -2403,5 +2403,10 @@ export const dictionary = [
         original: "Database",
         translations: ["Datenbasis"],
         comment: ""
+    },
+    {
+        original: "Screwdriver",
+        translations: ["Schraubenfahrer"],
+        comment: ""
     }
 ]
