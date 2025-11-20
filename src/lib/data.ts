@@ -2413,5 +2413,10 @@ export const dictionary = [
         original: "Spitfire",
         translations: ["Spuckfeuer"],
         comment: ""
+    },
+    {
+        original: "Trinket",
+        translations: ["Trink es"],
+        comment: ""
     }
 ]
