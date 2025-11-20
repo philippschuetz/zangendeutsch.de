@@ -2408,5 +2408,10 @@ export const dictionary = [
         original: "Screwdriver",
         translations: ["Schraubenfahrer"],
         comment: ""
+    },
+    {
+        original: "Spitfire",
+        translations: ["Spuckfeuer"],
+        comment: ""
     }
 ]
