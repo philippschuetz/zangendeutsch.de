@@ -35,7 +35,8 @@ Für die URL `https://zangendeutsch.de/api?query=fir` wird diese Antwort zurück
   ]
 }
 ```
-Alle eingetragenen Wörter sind unter `https://zangendeutsch.de/api` zu finden. 
+Bei einem leeren Suchbegriff (`query`) werden alle verfügbaren Einträge zurückgegeben.
+Für Pliersenglish liegt die API bei `https://zangendeutsch.de/pliersenglish/api`
 
 ## Entwickeln
 Aufsetzen der Entwicklungsumgebung mit npm:

@@ -20,7 +20,7 @@ class Dictionary {
 
     queryOriginalTranslations(query: string): Word[] {
         if (query === '') {
-            return [];
+            return this.getAll();
         }
         query = query.toLowerCase();
         const entries = this.dictionary.filter(entry =>
@@ -40,8 +40,6 @@ class Dictionary {
 
     getWords(query: string, page: number, pageSize: number): Word[] {
         let words = this.queryOriginalTranslations(query);
-        if (words.length === 0)
-            words = this.getAll()
         const firstIndex = (page - 1) * pageSize;
         const lastIndex = firstIndex + pageSize;
         return words.slice(firstIndex, lastIndex)
