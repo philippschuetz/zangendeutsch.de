@@ -16,7 +16,7 @@ function like(word: string, wordToCheck: string): boolean {
     return false;
 }
 
-export function queryOriginalTranslations(query: string): Word[] {
+function queryOriginalTranslations(query: string): Word[] {
     if (query === '') {
         return [];
     }
@@ -28,6 +28,19 @@ export function queryOriginalTranslations(query: string): Word[] {
     return entries.sort((a, b) => a.original.localeCompare(b.original));
 }
 
-export function getAll(): Word[] {
+function getAll(): Word[] {
     return dictionary.sort((a, b) => a.original.localeCompare(b.original));
+}
+
+export function getWordCount() {
+    return getAll().length
+}
+
+export function getWords(query: string, page: number, pageSize: number) {
+    let words = queryOriginalTranslations(query);
+    if (words.length === 0)
+        words = getAll()
+    const firstIndex = (page-1)*pageSize;
+    const lastIndex = firstIndex+pageSize;
+    return words.slice(firstIndex, lastIndex)
 }
