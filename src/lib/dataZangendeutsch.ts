@@ -2418,5 +2418,10 @@ export const dictionaryZangendeutsch = [
         original: "Trinket",
         translations: ["Trink es"],
         comment: ""
+    },
+    {
+        original: "Motionless in White",
+        translations: ["Bewegungslos in Weiß"],
+        comment: ""
     }
 ]
