@@ -1,4 +1,4 @@
-export const dictionary = [
+export const dictionaryZangendeutsch = [
     {
         original: "Tinder",
         translations: ["Zunder"],
@@ -71,7 +71,7 @@ export const dictionary = [
     },
     {
         original: "Microsoft",
-        translations: ["Winzigweich","Kleinweich"],
+        translations: ["Winzigweich", "Kleinweich"],
         comment: ""
     },
     {
@@ -171,7 +171,7 @@ export const dictionary = [
     },
     {
         original: "Fan",
-        translations: ["Lüfter","Ventilator"],
+        translations: ["Lüfter", "Ventilator"],
         comment: "Anhänger von etw."
     },
     {

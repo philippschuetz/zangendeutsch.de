@@ -1,9 +1,9 @@
 import {json} from '@sveltejs/kit';
-import {typedDictZangendeutsch} from '$lib/dataAccess';
+import {typedDictPliersenglish} from '$lib/dataAccess';
 
 export function GET({url}) {
     const query: string = url.searchParams.get('query') ?? '';
-    let matches = typedDictZangendeutsch.queryOriginalTranslations(query);
+    let matches = typedDictPliersenglish.queryOriginalTranslations(query);
 
     const response = {
         'query': query,
