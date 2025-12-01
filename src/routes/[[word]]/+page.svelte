@@ -1,36 +1,17 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { queryOriginalTranslations, getAll } from '$lib/dataAccess';
 	import type { Word } from '$lib/dataAccess';
 
-	let search: string = '';
-	let previousParam = ''; // used to detect changes in word param
+	let search: string = $state('');
 
-	// set initial value for search
-	if ($page.params.word === undefined) {
+	if (page.params.word === undefined) {
 		search = '';
 	} else {
-		search = $page.params.word;
+		search = page.params.word;
 	}
 
-	$: {
-		if (
-			$page.params.word !== undefined &&
-			previousParam !== $page.params.word
-		) {
-			previousParam = $page.params.word;
-			search = $page.params.word;
-		}
-	}
-
-	let wordsDisplayed: Word[] = [];
-
-	$: {
-		wordsDisplayed = queryOriginalTranslations(search);
-		if (wordsDisplayed.length === 0) {
-			wordsDisplayed = getAll();
-		}
-	}
+    let wordsDisplayed: Word[] = $derived(queryOriginalTranslations(search));
 </script>
 
 <svelte:head>
