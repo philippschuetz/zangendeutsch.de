@@ -16,7 +16,7 @@ function like(word: string, wordToCheck: string): boolean {
     return false;
 }
 
-function queryOriginalTranslations(query: string): Word[] {
+export function queryOriginalTranslations(query: string): Word[] {
     if (query === '') {
         return [];
     }
@@ -28,7 +28,7 @@ function queryOriginalTranslations(query: string): Word[] {
     return entries.sort((a, b) => a.original.localeCompare(b.original));
 }
 
-function getAll(): Word[] {
+export function getAll(): Word[] {
     return dictionary.sort((a, b) => a.original.localeCompare(b.original));
 }
 
