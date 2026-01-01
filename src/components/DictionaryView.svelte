@@ -23,15 +23,28 @@
         if (pagination > 1)
             pagination -= 1
     }
+    function getPrevious() {
+        if (pagination > 1)
+            return pagination - 1
+        else return 1
+    }
 
     function next() {
         pagination += 1
     }
+    function getNext() {
+        return pagination + 1
+    }
 
-    function last() {
-        pagination = Math.floor(dictionary.getWordCount() / pageSize)
+    function getLast() {
+        let last = Math.floor(dictionary.getWordCount() / pageSize)
         if (dictionary.getWordCount() % pageSize !== 0)
-            pagination += 1
+            last += 1
+        return last
+    }
+
+    function setPage(n: number) {
+        pagination = n
     }
 </script>
 
@@ -65,17 +78,34 @@
             {/each}
             </tbody>
         </table>
-        <div role="group">
-            <div role="group">
-                <button class="secondary outline" onclick={first}>Erste</button>
+        <div id="pagination">
+            {#if pagination != 1}
+            <div>
+                <a class="secondary" href="#" onclick={previous}>« Vorherige</a>
             </div>
-            <div role="group">
-                <button class="contrast outline" onclick={previous}>Vorherige</button>
-                <button class="contrast outline" onclick={next}>Nächste</button>
+            <span>·</span>
+            {:else if pagination == 1}
+            <div><a class="contrast" href="#" onclick={() => setPage(1)}>1</a></div>
+            <div><a class="secondary" href="#" onclick={() => setPage(2)}>2</a></div>
+            <div><a class="secondary" href="#" onclick={() => setPage(3)}>3</a></div>
+            {/if}
+
+            {#if pagination > 1 && pagination < getLast()}
+            <div><a class="secondary" href="#" onclick={() => previous()}>{getPrevious()}</a></div>
+            <div><a class="contrast" href="#" onclick={() => pagination = pagination}>{pagination}</a></div>
+            <div><a class="secondary" href="#" onclick={() => next()}>{getNext()}</a></div>
+            {/if}
+
+            {#if pagination != getLast()}
+            <span>·</span>
+            <div>
+                <a class="secondary" href="#" onclick={next}>Nächste »</a>
             </div>
-            <div role="group">
-                <button class="secondary outline" onclick={last}>Letzte</button>
-            </div>
+            {:else if pagination == getLast()}
+            <div><a class="secondary" href="#" onclick={() => setPage(getLast()-2)}>{getLast()-2}</a></div>
+            <div><a class="secondary" href="#" onclick={() => setPage(getLast()-1)}>{getLast()-1}</a></div>
+            <div><a class="contrast" href="#" onclick={() => setPage(getLast())}>{getLast()}</a></div>
+            {/if}
         </div>
     </main>
     <footer>
@@ -93,6 +123,19 @@
 <style>
     h1 {
         text-align: center;
+    }
+
+    #pagination {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10px;
+        justify-content: center;
+    }
+
+    #pagination > div {
+        cursor: pointer;
     }
 
     footer {
