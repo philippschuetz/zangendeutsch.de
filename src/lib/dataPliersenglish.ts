@@ -1,6 +1,6 @@
 export const dictionaryPliersenglish = [
     {
-        original: "Zangenenglish",
+        original: "Zangenenglisch",
         translations: ["Pliersenglish"],
         comment: ""
     }
