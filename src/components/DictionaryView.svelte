@@ -50,22 +50,20 @@
 
 <article>
     <main class="container-fluid">
-        <hgroup>
-            <h1>zangendeutsch.de</h1>
-            <input
-                    type="search"
-                    id="search"
-                    name="search"
-                    placeholder="Suche"
-                    bind:value={search}
-            />
-        </hgroup>
+        <h1>zangendeutsch.de</h1>
+        <input
+                type="search"
+                id="search"
+                name="search"
+                placeholder="Suche"
+                bind:value={search}
+        />
         <table>
             <thead>
             <tr>
-                <th scope="col">{dictionary.columnNameOriginal}</th>
-                <th scope="col">{dictionary.columnNameTranslations}</th>
-                <th scope="col">Anmerkungen</th>
+                <th scope="col">{dictionary.columnNameOriginal} <a class="contrast" href="{dictionary.otherDictUrl}">⇄</a></th>
+                <th scope="col">{dictionary.columnNameTranslations} <a class="contrast" href="{dictionary.otherDictUrl}">⇄</a></th>
+                <th scope="col">{dictionary.columnNameNote}</th>
             </tr>
             </thead>
             <tbody>

@@ -11,11 +11,15 @@ class Dictionary {
     dictionary: Word[]
     columnNameOriginal: string
     columnNameTranslations: string
+    columnNameNote: string
+    otherDictUrl: string
 
-    constructor(dictionary: Word[], columnNameOriginal: string, columnNameTranslations: string) {
+    constructor(dictionary: Word[], columnNameOriginal: string, columnNameTranslations: string, columnNameNote: string, otherDictUrl: string) {
         this.dictionary = dictionary
         this.columnNameOriginal = columnNameOriginal
         this.columnNameTranslations = columnNameTranslations
+        this.columnNameNote = columnNameNote
+        this.otherDictUrl = otherDictUrl
     }
 
     queryOriginalTranslations(query: string): Word[] {
@@ -60,10 +64,14 @@ function like(word: string, wordToCheck: string): boolean {
 export const typedDictZangendeutsch = new Dictionary(
     dictionaryZangendeutsch,
     "Angelsächsisch",
-    "Zangendeutsch"
+    "Zangendeutsch",
+    "Anmerkungen",
+    "/pliersenglish"
 );
 export const typedDictPliersenglish = new Dictionary(
     dictionaryPliersenglish,
     "Teutonic",
-    "Pliersenglish"
+    "Pliersenglish",
+    "Notes",
+    "/"
 );
