@@ -1,4 +1,4 @@
-export const dictionary = [
+export const dictionaryZangendeutsch = [
     {
         original: "Tinder",
         translations: ["Zunder"],
@@ -71,7 +71,7 @@ export const dictionary = [
     },
     {
         original: "Microsoft",
-        translations: ["Winzigweich","Kleinweich"],
+        translations: ["Winzigweich", "Kleinweich"],
         comment: ""
     },
     {
@@ -171,7 +171,7 @@ export const dictionary = [
     },
     {
         original: "Fan",
-        translations: ["Lüfter","Ventilator"],
+        translations: ["Lüfter", "Ventilator"],
         comment: "Anhänger von etw."
     },
     {
@@ -2402,6 +2402,26 @@ export const dictionary = [
     {
         original: "Database",
         translations: ["Datenbasis"],
+        comment: ""
+    },
+    {
+        original: "Screwdriver",
+        translations: ["Schraubenfahrer"],
+        comment: ""
+    },
+    {
+        original: "Spitfire",
+        translations: ["Spuckfeuer"],
+        comment: ""
+    },
+    {
+        original: "Trinket",
+        translations: ["Trink es"],
+        comment: ""
+    },
+    {
+        original: "Motionless in White",
+        translations: ["Bewegungslos in Weiß"],
         comment: ""
     }
 ]
