@@ -2423,5 +2423,10 @@ export const dictionaryZangendeutsch = [
         original: "Motionless in White",
         translations: ["Bewegungslos in Weiß"],
         comment: ""
-    }
+    },
+    {
+        original: "Easter Egg",
+        translations: ["Osterei"],
+        comment: ""
+    }    
 ]
