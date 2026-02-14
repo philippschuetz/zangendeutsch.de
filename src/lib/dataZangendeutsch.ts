@@ -2428,5 +2428,30 @@ export const dictionaryZangendeutsch = [
         original: "Easter Egg",
         translations: ["Osterei"],
         comment: ""
-    }    
+    },
+    {
+        original: "Doughnut",
+        translations: ["Teignuss"],
+        comment: ""
+    },
+    {
+        original: "Localhost",
+        translations: ["Heimwirt"],
+        comment: ""
+    },
+    {
+        original: "Remote host",
+        translations: ["Fernwirt"],
+        comment: ""
+    },
+    {
+        original: "Event listener",
+        translations: ["Veranstaltungszuhörer"],
+        comment: ""
+    },
+    {
+        original: "Scanner",
+        translations: ["Abtaster"],
+        comment: ""
+    }
 ]
