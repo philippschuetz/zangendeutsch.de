@@ -12,7 +12,7 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@sveltejs/adapter-node": "^5.5.1",
-    "@sveltejs/kit": "^2.50.0",
+    "@sveltejs/kit": "^2.53.0",
     "@types/node": "^24.10.1",
     "svelte": "^5.45.2",
     "svelte-check": "^4.3.4",
