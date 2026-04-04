@@ -1741,13 +1741,13 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Charlie Sheen",
-        translations: ["Karl Schimmer"],
+        translations: ["Karlchen Schimmer"],
         comment: ""
     },
     {
         original: "Checkpoint Charlie",
-        translations: ["Checkpoint Charlie"],
-        comment: ""
+        translations: ["Kontrollpunkt Karlchen", "Kontrollpunkt Chemnitz"],
+        comment: "C -> Chemnitz laut deutscher Buchstabiertafel"
     },
     {
         original: "CIA",
