@@ -20,8 +20,8 @@ export const dictionaryZangendeutsch = [
         comment: ""
     },
     {
-        original: "internet",
-        translations: ["Zwischennetz", "Zwischengewebe"],
+        original: "Internet",
+        translations: ["Zwischennetz", "Zwischengewebe", "Zentralnetz"],
         comment: ""
     },
     {
@@ -521,7 +521,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Call of Duty",
-        translations: ["Ruf der Pflicht"],
+        translations: ["Schrei der Pflicht"],
         comment: "Computerspiel"
     },
     {
@@ -736,12 +736,12 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Smartphone",
-        translations: ["Schlaufon", "Klugschnurlostelefon"],
+        translations: ["Schlaufon", "Klugschnurlostelefon", "Gripsfernsprecher"],
         comment: ""
     },
     {
         original: "Laptop",
-        translations: ["Schoßoben", "Klapprechner"],
+        translations: ["Schoßoben", "Klapprechner", "Schoßtafel"],
         comment: ""
     },
     {
@@ -756,7 +756,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Spoiler",
-        translations: ["Windleitblech", "Luftablenkflügel"],
+        translations: ["Windleitblech", "Luftablenkflügel", "Verderbniswissen"],
         comment: ""
     },
     {
@@ -871,7 +871,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "chatten",
-        translations: ["schnattern"],
+        translations: ["schnattern", "flimmertratschen"],
         comment: ""
     },
     {
@@ -1021,7 +1021,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Flatrate",
-        translations: ["Flachratte"],
+        translations: ["Flachratte", "Flachquote"],
         comment: ""
     },
     {
@@ -1071,7 +1071,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Halfpipe",
-        translations: ["Halbrohr"],
+        translations: ["Halbrohr", "Schürfrohr"],
         comment: ""
     },
     {
@@ -1091,7 +1091,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Hardcore",
-        translations: ["Hartkern"],
+        translations: ["Hartkern", "Grobkern"],
         comment: ""
     },
     {
@@ -1191,7 +1191,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Keyboard",
-        translations: ["Tastenbrett"],
+        translations: ["Tastenbrett", "Tastbrett"],
         comment: ""
     },
     {
@@ -1221,7 +1221,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Laser",
-        translations: ["Bündellicht"],
+        translations: ["Bündellicht", "Loderlicht"],
         comment: ""
     },
     {
@@ -1266,12 +1266,12 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Make-Up",
-        translations: ["Mach-Auf"],
+        translations: ["Mach-Auf", "Wangenputz"],
         comment: ""
     },
     {
         original: "Marshmallow",
-        translations: ["Marschmelone"],
+        translations: ["Marschmelone", "Schmausschwamm"],
         comment: ""
     },
     {
@@ -1301,7 +1301,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Nerd",
-        translations: ["Heimrechnerdepp"],
+        translations: ["Heimrechnerdepp", "Eiferkauz"],
         comment: ""
     },
     {
@@ -1481,7 +1481,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Skinhead",
-        translations: ["Hautkopf"],
+        translations: ["Hautkopf", "Glitschkopf"],
         comment: ""
     },
     {
@@ -1566,7 +1566,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Touchscreen",
-        translations: ["Berührungsschirm"],
+        translations: ["Berührungsschirm", "Tastschirm"],
         comment: ""
     },
     {
@@ -1806,7 +1806,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Gameboy",
-        translations: ["Spieljunge"],
+        translations: ["Spieljunge", "Zockbursche"],
         comment: ""
     },
     {
@@ -2366,7 +2366,7 @@ export const dictionaryZangendeutsch = [
     },
     {
         original: "Streaming",
-        translations: ["Jetztschau"],
+        translations: ["Jetztschau", "Strömung"],
         comment: ""
     },
     {
@@ -2452,6 +2452,226 @@ export const dictionaryZangendeutsch = [
     {
         original: "Scanner",
         translations: ["Abtaster"],
+        comment: ""
+    },
+    {
+        original: "Airbrush",
+        translations: ["Luftkritzel"],
+        comment: ""
+    },
+    {
+        original: "Anti-Aging",
+        translations: ["Runzelstopp"],
+        comment: ""
+    },
+    {
+        original: "Babysitter",
+        translations: ["Säuglingshirte"],
+        comment: ""
+    },
+    {
+        original: "Boxershorts",
+        translations: ["Prügelschlüpfer"],
+        comment: ""
+    },
+    {
+        original: "Catsuit",
+        translations: ["Miezenmieder"],
+        comment: ""
+    },
+    {
+        original: "Cheeseburger",
+        translations: ["Käse-Rundfleischweck"],
+        comment: ""
+    },
+    {
+        original: "Cliffhanger",
+        translations: ["Klippenbaumel"],
+        comment: ""
+    },
+    {
+        original: "Countdown",
+        translations: ["Fälligkeitszählung"],
+        comment: ""
+    },
+    {
+        original: "Cruise-Missile",
+        translations: ["Flugmörser"],
+        comment: ""
+    },
+    {
+        original: "Dashcam",
+        translations: ["Armaturenbrett-Bildstenograf"],
+        comment: ""
+    },
+    {
+        original: "Dickpic",
+        translations: ["Gliedbild"],
+        comment: ""
+    },
+    {
+        original: "Discounter",
+        translations: ["Herabwerter"],
+        comment: ""
+    },
+    {
+        original: "DJ",
+        translations: ["Plattenschinder"],
+        comment: ""
+    },
+    {
+        original: "Ecstasy",
+        translations: ["Frohlockflocken"],
+        comment: ""
+    },
+    {
+        original: "Fake News",
+        translations: ["Fintenmeldung"],
+        comment: ""
+    },
+    {
+        original: "Flip-Flops",
+        translations: ["Flutsch-Flatschen"],
+        comment: ""
+    },
+    {
+        original: "G-String",
+        translations: ["G-Saite"],
+        comment: ""
+    },
+    {
+        original: "Grunge",
+        translations: ["Pfuhlmusik"],
+        comment: ""
+    },
+    {
+        original: "Hedgefonds",
+        translations: ["Strauchfirma"],
+        comment: ""
+    },
+    {
+        original: "High-five",
+        translations: ["Tatzenhauer"],
+        comment: ""
+    },
+    {
+        original: "Hurrikan",
+        translations: ["Zwirbelbö"],
+        comment: ""
+    },
+    {
+        original: "Influencer",
+        translations: ["Einbläuer"],
+        comment: ""
+    },
+    {
+        original: "Jetski",
+        translations: ["Düsenbarke"],
+        comment: ""
+    },
+    {
+        original: "Jukebox",
+        translations: ["Spelunkenorgel"],
+        comment: ""
+    },
+    {
+        original: "Kidnapping",
+        translations: ["Zöglingsentzug"],
+        comment: ""
+    },
+    {
+        original: "Live-Stream",
+        translations: ["Verjetztlichungsstrahl"],
+        comment: ""
+    },
+    {
+        original: "Looping",
+        translations: ["Bahnkringel"],
+        comment: ""
+    },
+    {
+        original: "Modern Talking",
+        translations: ["Ohrenfrevel"],
+        comment: ""
+    },
+    {
+        original: "Netflix & Chill",
+        translations: ["Netzbewegtbild und Müßiggang"],
+        comment: ""
+    },
+    {
+        original: "One-Night-Stand",
+        translations: ["Sonderbeischlaf"],
+        comment: ""
+    },
+    {
+        original: "Outfit",
+        translations: ["Kluftbild"],
+        comment: ""
+    },
+    {
+        original: "Petting",
+        translations: ["Lustpulen"],
+        comment: ""
+    },
+    {
+        original: "Phishing",
+        translations: ["Heuchelpost"],
+        comment: ""
+    },
+    {
+        original: "Puzzle",
+        translations: ["Rätseltrümmer"],
+        comment: ""
+    },
+    {
+        original: "Roboter",
+        translations: ["Getriebeknecht"],
+        comment: ""
+    },
+    {
+        original: "Sex-Appeal",
+        translations: ["Gierkitzel"],
+        comment: ""
+    },
+    {
+        original: "Swipen",
+        translations: ["fingerfegen"],
+        comment: ""
+    },
+    {
+        original: "Trailer",
+        translations: ["Lockdarbietung"],
+        comment: ""
+    },
+    {
+        original: "Undercover",
+        translations: ["im Trugaufzug"],
+        comment: ""
+    },
+    {
+        original: "Vintage",
+        translations: ["Edelrümpel"],
+        comment: ""
+    },
+    {
+        original: "Waterboarding",
+        translations: ["Folter"],
+        comment: ""
+    },
+    {
+        original: "Whistleblower",
+        translations: ["Pfeifenpetze"],
+        comment: ""
+    },
+    {
+        original: "Zombie",
+        translations: ["Wutleiche"],
+        comment: ""
+    },
+    {
+        original: "Zoom",
+        translations: ["Bildschwellung"],
         comment: ""
     }
 ]
