@@ -2453,5 +2453,10 @@ export const dictionaryZangendeutsch = [
         original: "Scanner",
         translations: ["Abtaster"],
         comment: ""
+    },
+    {
+        original: "Brendan Carr",
+        translations: ["Brenndein Autoo"],
+        comment: ""
     }
 ]
