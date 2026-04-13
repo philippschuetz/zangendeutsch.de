@@ -2455,6 +2455,11 @@ export const dictionaryZangendeutsch = [
         comment: ""
     },
     {
+        original: "Brendan Carr",
+        translations: ["Brenndein Autoo"],
+        comment: ""      
+    },
+    {
         original: "Airbrush",
         translations: ["Luftkritzel"],
         comment: ""
