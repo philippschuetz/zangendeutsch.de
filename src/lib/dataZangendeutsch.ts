@@ -2678,5 +2678,10 @@ export const dictionaryZangendeutsch = [
         original: "Zoom",
         translations: ["Bildschwellung"],
         comment: ""
+    },
+    {
+        original: "For real",
+        translations: ["Für echt"],
+        comment: ""
     }
 ]
