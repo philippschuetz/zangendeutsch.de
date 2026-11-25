@@ -2683,5 +2683,9 @@ export const dictionaryZangendeutsch = [
         original: "For real",
         translations: ["Für echt"],
         comment: ""
+    },
+    {	original: "Screenwatcher",
+	    translations: ["Bildschirmlauerer"],
+	    comment: ""
     }
 ]
