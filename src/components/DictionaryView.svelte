@@ -1,6 +1,6 @@
 <script lang="ts">
     import {page} from '$app/state';
-    import type {Word} from '$lib/dataAccess';
+    import type {Word} from '#lib/dataAccess.ts';
 
     let {dictionary} = $props();
     let search: string = $state('');
