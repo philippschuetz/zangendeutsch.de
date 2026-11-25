@@ -54,3 +54,6 @@ docker compose up --build
 ```
 
 Für Änderungen bitte neuen feature Branch von developer erstellen (z.B: feature/mein-neues-feature)
+
+### Updates
+Benutze https://github.com/azat-io/actions-up, um Actions in der CI Pipeline zu updaten

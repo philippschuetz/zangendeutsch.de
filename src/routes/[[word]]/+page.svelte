@@ -1,6 +1,6 @@
 <script lang="ts">
     import DictionaryView from '../../components/DictionaryView.svelte';
-    import {typedDictZangendeutsch} from "$lib/dataAccess";
+    import {typedDictZangendeutsch} from "#lib/dataAccess.ts";
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
-import {dictionaryZangendeutsch} from '$lib/dataZangendeutsch';
-import {dictionaryPliersenglish} from '$lib/dataPliersenglish';
+import {dictionaryZangendeutsch} from '#lib/dataZangendeutsch.ts';
+import {dictionaryPliersenglish} from '#lib/dataPliersenglish.ts';
 
 export interface Word {
     original: string;

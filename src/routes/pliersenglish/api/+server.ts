@@ -1,5 +1,4 @@
-import {json} from '@sveltejs/kit';
-import {typedDictPliersenglish} from '$lib/dataAccess';
+import {typedDictPliersenglish} from '#lib/dataAccess.ts';
 
 export function GET({url}) {
     const query: string = url.searchParams.get('query') ?? '';
@@ -9,5 +8,5 @@ export function GET({url}) {
         'query': query,
         'matches': matches
     };
-    return json(response);
+    return Response.json(response);
 }
